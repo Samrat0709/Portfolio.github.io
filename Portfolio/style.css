@@ -1,0 +1,151 @@
+body{
+    background-color: #0E1519;
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    margin:0px;
+    border: solid 2px black ;
+    
+    
+}
+nav{
+    background-color: #161B1D;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+.menu li{
+    display: inline;
+    padding: 0 80px 0 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    color: aliceblue;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+a:hover{
+    color: #A5D4E8;
+}
+
+
+h1{
+    color: aqua;
+    text-align: center;
+    margin-top: 6%;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@keyframes glowing {
+    0% { text-shadow: 0 0 10px #fff; }
+    50% { text-shadow: 0 0 20px #ff00e6; }
+    100% { text-shadow: 0 0 10px #fff; }
+  }
+ 
+  
+.gt{
+    animation: glowing 1.5s ease-in-out infinite;
+  }
+
+.cp{
+    width: 700px;
+    height: 360px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.abt{
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: "Brush Script MT", cursive;
+    color: azure;
+}
+.abtcp{
+    text-align: center;
+    padding-top: 1px;
+    font-size: 20px;
+    color: azure ;
+    
+}
+h2{
+    text-align: center;
+    color: #DDE221;
+    margin-top: 70px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.prof{
+    width: 700px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+    
+
+h3{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #C8BFBF;
+    text-shadow: 2px 2px 2px #FBF5F5 ;
+}
+.tb{
+    color: #FBF5F5;
+    margin-top: 10%;
+    display: flex;
+    position: relative;
+    top: 50%;
+    left: 140%;
+
+
+}
+h5{
+    color: #ff00e6;
+    font-size: 30px;
+    padding-left: 60px;
+    text-decoration:underline;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.des{
+    color: #A5D4E8;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+#p{
+    color: #8AA499;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+}
+.im{
+    width: 700px;
+    display: flex;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
